@@ -1,0 +1,38 @@
+.topbar-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202030;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.topbar-list {
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.link-selected {
+    color: #F0F0FF;
+    font-weight: bolder;
+}
+
+.link-normal {
+    color: #ccccff;
+}
+
+.link-normal :hover {
+    color: #F4F4ff;
+}
+
+.topbar-list li {
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+    text-align: center;
+}
