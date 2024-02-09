@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  website-yes:
+    container_name: website-yes
+    build: .
+    volumes:
+     - "./res:/srv/res"
+
+volumes:
+  data:
+networks:
+  default:
+  nginx-router_default:
+    external: true
