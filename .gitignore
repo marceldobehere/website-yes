@@ -1,5 +1,5 @@
-static/.well-known/*
-static/googlec2ee4f4bf6c4054c.html
+public/.well-known/*
+public/googlec2ee4f4bf6c4054c.html
 package-lock.json
 .idea
 out
