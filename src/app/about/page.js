@@ -5,6 +5,8 @@ export default () => {
     return (
         <main className="">
             <TopBar page={"about"} title={"About me"}></TopBar>
-            A
+            <h2>Hello!</h2>
+            <p>I shall add more info here soon!
+            </p>
         </main>);
 }

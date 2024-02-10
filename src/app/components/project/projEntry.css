@@ -1,0 +1,55 @@
+/*Dark mode horizontal layout with the title, below the description and the image on the righthand side*/
+
+/*
+<div className={"project-entry-main"}>
+    <div className={"project-entry-text"}>
+        <h2><a href={link} target="_blank">{title}</a></h2>
+        <p>{children}</p>
+    </div>
+    {
+        (picture !== "") ?
+            <img className={"project-entry-image"} src={picture}></img> :
+            <></>
+    }
+</div>
+*/
+
+.project-entry-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+
+    width: 90%;
+    padding: 10px;
+    margin: auto auto 50px;
+
+    border-radius: 15px;
+    box-shadow: 0 0 8px 3px #c0c0ff;
+}
+
+.project-entry-text {
+    display: block;
+    width: 100%;
+}
+
+.project-entry-text h2 {
+    display: block;
+    font-size: 2em;
+    color: #e0e0ff;
+    margin-bottom: 20px;
+}
+
+.project-entry-text p {
+    font-size: 1.5em;
+    text-align: justify;
+    width: 92%;
+}
+
+.project-entry-image {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 2px #e0e0ff;
+}

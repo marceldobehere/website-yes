@@ -1,5 +1,5 @@
-import Image from "next/image";
 import TopBar from "../components/nav/top.js";
+import "./page.css";
 
 export default () => {
     return (
@@ -15,8 +15,7 @@ export default () => {
             <h2>Email</h2>
             <p>You can send me an email <a href={"mailto:marcel.z2006@gmail.com"}>here</a>.</p>
 
-
-                <h2>Goofy Chat</h2>
+            <h2>Goofy Chat</h2>
             <p>You can send me a message on <a href={"https://goofy.marceldobehere.com"}>goofy chat</a>!<br/>
             My user id is: 2648350751.</p>
 

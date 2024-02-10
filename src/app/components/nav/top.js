@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import "./top.css";
 
 const TopBar = ({page, title}) => {
@@ -8,20 +7,21 @@ const TopBar = ({page, title}) => {
             <title>{title}</title>
             <div className="topbar-div">
                 <ul className="topbar-list">
-                    <li>
-                        <Link class={("home" === page ? "link-selected":"link-normal")} href="/"><p>Home</p></Link>
+                    <li className={("home" === page ? "link-selected":"link-normal")}>
+                        <a href="/">Home</a>
                     </li>
-                    <li>
-                        <Link class={("about" === page ? "link-selected":"link-normal")} href="/about"><p>About me</p></Link>
+                    <li className={("about" === page ? "link-selected":"link-normal")}>
+                        <a href="/about">About me</a>
                     </li>
-                    <li>
-                        <Link class={("projects" === page ? "link-selected":"link-normal")} href="/projects"><p>Projects</p></Link>
+                    <li className={("projects" === page ? "link-selected":"link-normal")}>
+                        <a href="/projects">Projects</a>
                     </li>
-                    <li>
-                        <Link class={("contact" === page ? "link-selected":"link-normal")} href="/contact"><p>Contact me</p></Link>
+                    <li className={("contact" === page ? "link-selected":"link-normal")} >
+                        <a href="/contact">Contact me</a>
                     </li>
                 </ul>
             </div>
+            <br/>
         </>
     );
 };
