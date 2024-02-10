@@ -1,3 +1,34 @@
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 5/8) {
+    .topbar-div {
+        font-size: 16px;
+    }
+
+    .topbar-list li {
+        margin: 2px 5px 2px 5px;
+    }
+
+    .link-selected a, .link-normal a {
+        padding: 5px;
+    }
+}
+
+/* Minimum aspect ratio */
+@media (min-aspect-ratio: 5/8) {
+    .topbar-div {
+        font-size: 24px;
+    }
+
+    .topbar-list li {
+        margin: 6px;
+    }
+
+    .link-selected a, .link-normal a {
+        padding: 10px;
+    }
+}
+
+
 .topbar-div {
     display: flex;
     justify-content: space-between;
@@ -25,7 +56,6 @@
     text-align: center;
 
     border-radius: 10px;
-    margin: 5px;
     box-shadow: 0 0 2px 2px #e0e0ff;
 }
 
@@ -50,7 +80,6 @@
     display: inline-block;
     width: 100%;
     height: 100%;
-    padding: 10px;
 }
 
 .link-normal:hover {
