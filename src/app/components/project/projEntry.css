@@ -1,22 +1,30 @@
-/*Dark mode horizontal layout with the title, below the description and the image on the righthand side*/
-
-/*
-<div className={"project-entry-main"}>
-    <div className={"project-entry-text"}>
-        <h2><a href={link} target="_blank">{title}</a></h2>
-        <p>{children}</p>
-    </div>
-    {
-        (picture !== "") ?
-            <img className={"project-entry-image"} src={picture}></img> :
-            <></>
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 5/6) {
+    .project-entry-main {
+        grid-template-columns: 1fr;
+        justify-content: space-between;
     }
-</div>
-*/
+
+    .project-entry-image {
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+
+/* Minimum aspect ratio */
+@media (min-aspect-ratio: 5/6) {
+    .project-entry-main {
+        grid-template-columns: 2fr 1fr;
+    }
+    .project-entry-image {
+        margin: auto;
+    }
+}
+
 
 .project-entry-main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+
     justify-content: space-between;
 
     width: 90%;
@@ -41,7 +49,7 @@
 
 .project-entry-text p {
     font-size: 1.5em;
-    text-align: justify;
+    text-align: left;
     width: 92%;
 }
 
@@ -49,7 +57,6 @@
     display: block;
     width: 100%;
     padding: 10px;
-    margin: auto;
     border-radius: 10px;
     box-shadow: 0 0 3px 2px #e0e0ff;
 }
