@@ -13,6 +13,21 @@
     }
 }
 
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 5/13) {
+    .topbar-div {
+        font-size: 12px;
+    }
+
+    .topbar-list li {
+        margin: 2px 5px 2px 5px;
+    }
+
+    .link-selected a, .link-normal a {
+        padding: 2px;
+    }
+}
+
 /* Minimum aspect ratio */
 @media (min-aspect-ratio: 5/8) {
     .topbar-div {

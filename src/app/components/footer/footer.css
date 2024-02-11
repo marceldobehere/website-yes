@@ -69,3 +69,23 @@
         font-size: 0.8rem;
     }
 }
+
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 5/10) {
+
+    .footer-div {
+        font-size: 12px;
+        grid-template-columns: 0.5fr 1.3fr;
+    }
+    .footer-visitor-div p {
+        font-size: 0.8rem;
+    }
+
+    .footer-visitor-div {
+        grid-template-columns: 0.1fr 0.1fr;
+    }
+
+    .footer-visitor-div img {
+        width: 50vw;
+    }
+}
