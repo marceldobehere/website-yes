@@ -1,5 +1,17 @@
-/* Maximum aspect ratio */
-@media (max-aspect-ratio: 5/8) {
+.topbar-div {
+    font-size: 24px;
+}
+
+.topbar-list li {
+    margin: 6px;
+}
+
+.link-selected a, .link-normal a {
+    padding: 10px;
+}
+
+
+@media (max-width:580px) {
     .topbar-div {
         font-size: 16px;
     }
@@ -13,8 +25,8 @@
     }
 }
 
-/* Maximum aspect ratio */
-@media (max-aspect-ratio: 5/13) {
+
+@media (max-width:480px) {
     .topbar-div {
         font-size: 12px;
     }
@@ -28,21 +40,19 @@
     }
 }
 
-/* Minimum aspect ratio */
-@media (min-aspect-ratio: 5/8) {
+@media (max-width:380px) {
     .topbar-div {
-        font-size: 24px;
+        font-size: 10px;
     }
 
     .topbar-list li {
-        margin: 6px;
+        margin: 2px 3px 2px 3px;
     }
 
     .link-selected a, .link-normal a {
-        padding: 10px;
+        padding: 2px;
     }
 }
-
 
 .topbar-div {
     display: flex;

@@ -30,8 +30,10 @@ h2  {
     padding-top: 20px;
 }
 
-/* Maximum aspect ratio */
-@media (max-aspect-ratio: 5/6) {
+
+
+
+@media (max-width:600px) {
     .contact-text {
         font-size: 1.4rem;
     }
@@ -40,12 +42,31 @@ h2  {
     }
 }
 
-/* Maximum aspect ratio */
-@media (max-aspect-ratio: 5/7) {
+
+@media (max-width:500px) {
     .contact-text {
         font-size: 1.1rem;
     }
     h1 {
         font-size: 2em;
+    }
+}
+
+
+@media (max-width:300px) {
+    .contact-text {
+        font-size: 0.8rem;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:280px) {
+    .contact-text {
+        font-size: 0.7rem;
+    }
+    h1 {
+        font-size: 1.2em;
     }
 }

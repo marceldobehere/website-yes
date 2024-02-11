@@ -1,5 +1,14 @@
-/* Maximum aspect ratio */
-@media (max-aspect-ratio: 5/5) {
+    .project-entry-main {
+        grid-template-columns: 2fr 1fr;
+    }
+    .project-entry-image {
+        margin: auto;
+    }
+    .project-entry-text p {
+        font-size: 1.5em;
+    }
+
+@media (max-width:1200px) {
     .project-entry-main {
         grid-template-columns: 1.6fr 1fr;
     }
@@ -11,8 +20,19 @@
     }
 }
 
-/* Maximum aspect ratio */
-@media (max-aspect-ratio: 5/6) {
+@media (max-width:1000px) {
+    .project-entry-main {
+        grid-template-columns: 1.6fr 1fr;
+    }
+    .project-entry-image {
+        margin: auto;
+    }
+    .project-entry-text p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width:800px) {
     .project-entry-main {
         grid-template-columns: 1fr;
         justify-content: space-between;
@@ -28,18 +48,6 @@
     }
 }
 
-/* Minimum aspect ratio */
-@media (min-aspect-ratio: 5/5) {
-    .project-entry-main {
-        grid-template-columns: 2fr 1fr;
-    }
-    .project-entry-image {
-        margin: auto;
-    }
-    .project-entry-text p {
-        font-size: 1.5em;
-    }
-}
 
 
 .project-entry-main {
