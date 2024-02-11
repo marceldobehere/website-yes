@@ -3,6 +3,10 @@ public/googlec2ee4f4bf6c4054c.html
 package-lock.json
 .idea
 res
+extra
+
+out/.well-known/
+out/googlec2ee4f4bf6c4054c.html
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
