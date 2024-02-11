@@ -24,7 +24,10 @@ export default () =>{
                     <br/>
 
                     Feel free to <a href="/contact">contact me</a> if you want to chat or have any questions!<br/>
+                    <br/>
+                    <br/>
 
+                    Have a nice day!
 
                 </p>
             </div>
