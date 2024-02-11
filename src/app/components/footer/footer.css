@@ -74,7 +74,7 @@
 @media (max-aspect-ratio: 5/10) {
 
     .footer-div {
-        font-size: 12px;
+        font-size: 0.7rem;
         grid-template-columns: 0.5fr 1.3fr;
     }
     .footer-visitor-div p {
@@ -86,6 +86,6 @@
     }
 
     .footer-visitor-div img {
-        width: 50vw;
+        width: 40vw;
     }
 }
