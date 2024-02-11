@@ -10,6 +10,12 @@ export default () => {
 
             <ProjectEntry title="MaslOS2" link="https://github.com/marceldobehere/MaslOS-2" picture="https://github.com/marceldobehere/MaslOS-2/raw/main/images/demo.png">
                 My custom OS! The second version of <a href="https://github.com/marceldobehere/MaslOS">MaslOS</a>.<br/>
+                From the outside it might look the same as the original MaslOS, but internally it is very different!<br/>
+                The main differnce is it having ELF execution and a normal scheduler.<br/>
+            </ProjectEntry>
+
+            <ProjectEntry title="MaslOS" link="https://github.com/marceldobehere/MaslOS" picture="https://github.com/marceldobehere/MaslOS/raw/master/images/thumbnail.PNG">
+                My first custom OS! <br/>
                 It's 64 bit and mostly written in C++. There are a lot of things already made and it runs on real hardware!
             </ProjectEntry>
 

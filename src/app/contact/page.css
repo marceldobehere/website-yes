@@ -1,3 +1,44 @@
+.mainDiv {
+    margin: auto;
+    width: 85%;
+}
+
+.main-title {
+    display: grid;
+    grid-template-columns: 1.4fr 0.4fr;
+}
+
+.contact-text {
+    font-size: 1.8rem;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 150px;
+    margin: 10px;
+    float: right;
+}
+
+h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
 h2  {
     padding-top: 20px;
+}
+
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 5/6) {
+    .contact-text {
+        font-size: 1.4rem;
+    }
+}
+
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 5/7) {
+    .contact-text {
+        font-size: 1.1rem;
+    }
 }

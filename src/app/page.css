@@ -1,0 +1,11 @@
+.mainDiv {
+    margin: auto;
+    width: 85%;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 150px;
+    margin: 10px;
+    float: right;
+}

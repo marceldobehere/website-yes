@@ -24,6 +24,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-size: 20px;
 }
 
 @layer utilities {
@@ -38,6 +39,11 @@ a {
 
 a:hover {
   color: #e0e0ff;
+}
+
+h1 {
+  color: #e0e0ff;
+  font-size: 2.5em;
 }
 
 h2 {
