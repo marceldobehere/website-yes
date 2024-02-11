@@ -71,7 +71,7 @@
 }
 
 /* Maximum aspect ratio */
-@media (max-aspect-ratio: 5/10) {
+@media (max-aspect-ratio: 5/7) {
 
     .footer-div {
         font-size: 0.7rem;
@@ -86,6 +86,6 @@
     }
 
     .footer-visitor-div img {
-        width: 35vw;
+        width: 50%;
     }
 }
