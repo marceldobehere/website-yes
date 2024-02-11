@@ -1,4 +1,17 @@
 /* Maximum aspect ratio */
+@media (max-aspect-ratio: 5/5) {
+    .project-entry-main {
+        grid-template-columns: 1.6fr 1fr;
+    }
+    .project-entry-image {
+        margin: auto;
+    }
+    .project-entry-text p {
+        font-size: 1.2em;
+    }
+}
+
+/* Maximum aspect ratio */
 @media (max-aspect-ratio: 5/6) {
     .project-entry-main {
         grid-template-columns: 1fr;
@@ -9,15 +22,22 @@
         margin: auto;
         margin-top: 30px;
     }
+
+    .project-entry-text p {
+        font-size: 1em;
+    }
 }
 
 /* Minimum aspect ratio */
-@media (min-aspect-ratio: 5/6) {
+@media (min-aspect-ratio: 5/5) {
     .project-entry-main {
         grid-template-columns: 2fr 1fr;
     }
     .project-entry-image {
         margin: auto;
+    }
+    .project-entry-text p {
+        font-size: 1.5em;
     }
 }
 
@@ -48,9 +68,9 @@
 }
 
 .project-entry-text p {
-    font-size: 1.5em;
     text-align: left;
     width: 92%;
+    transition: all 0.3s ease;
 }
 
 .project-entry-image {
