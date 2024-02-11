@@ -2,3 +2,10 @@
     margin: auto;
     width: 85%;
 }
+
+
+
+.goofy-list {
+    list-style-type: square;
+    padding-left: 1em;
+}

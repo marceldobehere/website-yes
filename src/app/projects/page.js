@@ -73,5 +73,11 @@ export default () => {
                 You can view it as a bad mix of HTML and JS.<br/>
             </ProjectEntry>
 
+            <ProjectEntry title="Other Projects" link="https://github.com/marceldobehere" picture="/img/rocc.png">
+                Those were just some of the projects on my <a href="https://github.com/marceldobehere">Github</a>!<br/>
+                I have a bunch of other projects and small tools on there, so feel free to take a look at it.<br/>
+                This website is also open source, so you can take a look at it <a href="https://github.com/marceldobehere/website-yes">here</a>.
+            </ProjectEntry>
+
         </main>);
 }
