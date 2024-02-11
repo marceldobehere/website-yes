@@ -28,7 +28,6 @@ export default () =>{
                     <br/>
 
                     Have a nice day!
-
                 </p>
             </div>
         </main>);
