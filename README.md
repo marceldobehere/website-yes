@@ -1,8 +1,9 @@
 # Website
 
-yes this is my website.
-Very bad and wip rn.
+This is my goofy website.
 
-Don't worry about it for now.
+It's made using NextJS!
+
+This is currently a static site, but I could make it a normal webserver at later point.
 
 Hosted [here](https://marceldobehere.com)!
