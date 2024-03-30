@@ -15,6 +15,20 @@ export default () => {
                 I am actively working on this project (and on some others).
             </ProjectEntry>
 
+            <ProjectEntry title="RB-Taktik" link="https://github.com/marceldobehere/rb-taktik" picture="https://github.com/marceldobehere/rb-taktik/raw/master/images/ingame.PNG">
+                A goofy web game me and a few others created as our school project.<br/>
+                Its like tic tac toe but more crazy because you can overbid pieces.<br/>
+                As this is only a school project it won't really be updated anymore.<br/>
+                You can still play it <a href="https://rb-taktik.marceldobehere.com">here</a> though!<br/>
+            </ProjectEntry>
+
+            <ProjectEntry title="Goofy CPU" link="https://github.com/marceldobehere/goofy-cpu" picture="https://github.com/marceldobehere/goofy-cpu/raw/main/imgs/cpu%20test%201.gif">
+                My custom CPU! It's an 8 bit CPU with my custom instruction set.<br/>
+                It is made in logism evolution and will have a (maybe custom) assembler soon.<br/>
+                Still very WIP but currently the CPU is aliveee!<br/>
+                This is btw my first real attempt at making an actual cpu in logism and I think it is pretty cool.
+            </ProjectEntry>
+
             <ProjectEntry title="MaslOS" link="https://github.com/marceldobehere/MaslOS" picture="https://github.com/marceldobehere/MaslOS/raw/master/images/thumbnail.PNG">
                 My first custom OS! <br/>
                 It's 64 bit and mostly written in C++. There are a lot of things already made and it runs on real hardware!<br/>
