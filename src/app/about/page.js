@@ -6,7 +6,7 @@ import React, { useState, useEffect } from 'react'
 function getAge() {
     const dayOfBirth = new Date();
     dayOfBirth.setFullYear(2006);
-    dayOfBirth.setMonth(4);
+    dayOfBirth.setMonth(3); // Months are 0 indexed???
     dayOfBirth.setDate(17);
     dayOfBirth.setHours(0);
     dayOfBirth.setMinutes(0);
