@@ -6,7 +6,7 @@ import ProjectEntry from "@/app/components/project/projEntry";
 export default () => {
     return (
         <main className="">
-            <TopBar page="projects" title="Projects"></TopBar>
+            <TopBar page="projects" title="Projects" desc="This is a list of projects from marceldobehere."></TopBar>
 
             <ProjectEntry title="MaslOS2" link="https://github.com/marceldobehere/MaslOS-2" pictureAlt="A screenshot of MaslOS2"
                           picture="https://github.com/marceldobehere/MaslOS-2/raw/main/images/demo.png">

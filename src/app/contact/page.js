@@ -4,7 +4,7 @@ import "./page.css";
 export default () => {
     return (
         <main className="">
-            <TopBar page={"contact"} title={"Contact me"}></TopBar>
+            <TopBar page={"contact"} title={"Contact me"} desc="These are some contact methods for marceldobehere."></TopBar>
             <div className="mainDiv">
                 <div className="main-title">
                     <h1>Contact Me</h1>

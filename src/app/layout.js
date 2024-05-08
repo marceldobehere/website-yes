@@ -5,7 +5,7 @@ import Footer from "./components/footer/footer.js";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  description: "This is the website of marceldobehere.",
+
 };
 
 export default function RootLayout({ children }) {

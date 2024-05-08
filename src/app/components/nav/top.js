@@ -1,10 +1,11 @@
 import React from "react";
 import "./top.css";
 
-const TopBar = ({page, title}) => {
+const TopBar = ({page, title, desc}) => {
     return (
         <>
             <title>{title}</title>
+            <meta type="description" content={desc}></meta>
             <div className="topbar-div">
                 <ul className="topbar-list">
                     <li className={("home" === page ? "link-selected":"link-normal")}>

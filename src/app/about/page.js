@@ -39,7 +39,7 @@ export default () => {
 
     return (
     <main>
-        <TopBar page={"about"} title={"About me"}></TopBar>
+        <TopBar page={"about"} title={"About me"} desc="This is some information about marceldobehere."></TopBar>
         <div className="mainDiv">
             <h2>An Introduction</h2>
             <p>

@@ -5,7 +5,7 @@ import "./page.css";
 export default () =>{
     return (
         <main className="">
-            <TopBar page={"home"} title={"Home"}></TopBar>
+            <TopBar page={"home"} title={"Home"} desc="This is the website of marceldobehere."></TopBar>
             <div className="mainDiv">
                 <img className="pfp" src="/img/rocc.png" alt="Profile Picture (Is a Rocc)"></img>
                 <h2>Hello!</h2>
