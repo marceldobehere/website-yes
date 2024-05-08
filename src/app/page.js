@@ -7,7 +7,7 @@ export default () =>{
         <main className="">
             <TopBar page={"home"} title={"Home"}></TopBar>
             <div className="mainDiv">
-                <img className="pfp" src="/img/rocc.png"></img>
+                <img className="pfp" src="/img/rocc.png" alt="Profile Picture (Is a Rocc)"></img>
                 <h2>Hello!</h2>
                 <p>
                     My name is Marcel (aka masl, marceldobehere, marceldarcel or the black magic rocc programmer)<br/>

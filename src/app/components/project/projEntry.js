@@ -1,6 +1,6 @@
 import "./projEntry.css";
 
-const ProjectEntry = ({title, link, children, picture}) => {
+const ProjectEntry = ({title, link, children, picture, pictureAlt}) => {
     return (
         <>
             <div className={"project-entry-main"}>
@@ -10,7 +10,7 @@ const ProjectEntry = ({title, link, children, picture}) => {
                 </div>
                 {
                     (picture !== "") ?
-                        <img className={"project-entry-image"} src={picture}></img> :
+                        <img className={"project-entry-image"} src={picture} alt={pictureAlt}></img> :
                         <></>
                 }
             </div>

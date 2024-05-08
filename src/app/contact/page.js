@@ -8,7 +8,7 @@ export default () => {
             <div className="mainDiv">
                 <div className="main-title">
                     <h1>Contact Me</h1>
-                    <img className="pfp" src="/img/rocc.png"></img>
+                    <img className="pfp" src="/img/rocc.png" alt="Profile Picture (Is a Rocc)"></img>
                 </div>
 
                 <p className="contact-text">
