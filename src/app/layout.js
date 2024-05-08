@@ -5,7 +5,6 @@ import Footer from "./components/footer/footer.js";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "My website",
   description: "This is the website of marceldobehere.",
 };
 
