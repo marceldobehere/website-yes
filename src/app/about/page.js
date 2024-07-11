@@ -93,6 +93,7 @@ export default () => {
                     <li>NodeJS, NextJS</li>
                     <li>SQL, T-SQL, MySQL, PL/SQL</li>
                     <li>Batch, Bash</li>
+                    <li>Clojure</li>
                 </ul>
             </div>
             <br/>
