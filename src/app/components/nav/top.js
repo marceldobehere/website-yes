@@ -6,7 +6,7 @@ const TopBar = ({page, title, desc}) => {
         <>
             <title>{title}</title>
             <meta type="description" content={desc}></meta>
-            <meta http-equiv="Cache-Control" content="public, max-age=86400, must-revalidate"/>
+            <meta httpEquiv="Cache-Control" content="public, max-age=86400, must-revalidate"/>
             <div className="topbar-div">
                 <ul className="topbar-list">
                     <li className={("home" === page ? "link-selected" : "link-normal")}>

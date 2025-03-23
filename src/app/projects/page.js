@@ -8,12 +8,26 @@ export default () => {
         <main className="">
             <TopBar page="projects" title="Projects" desc="This is a list of projects from marceldobehere."></TopBar>
 
+            <ProjectEntry title="Goofy Media" link="https://github.com/marceldobehere/goofy-media-front" pictureAlt="A screenshot of goofy media"
+                          picture="https://github.com/marceldobehere/goofy-media-front/blob/master/imgs/home.png?raw=true">
+                This is a text based Social Media Website I am working on. It is based on the decentralized authentication system from goofy chat v2.<br/>
+                I am planning to add lots of cool features to it, the idea behind making it is me
+                wanting to make something that I could use instead of <a href="https://en.wikipedia.org/wiki/Cohost">cohost</a>.
+                It is still very WIP and I am actively working on it, though a I am currently hosting a node publicly.<br/>
+            </ProjectEntry>
+
+            <ProjectEntry title="Goofy Chat App v2" link="https://github.com/marceldobehere/goofy-chat-app-v2" pictureAlt="A screenshot of goofy chat 2"
+                          picture="https://github.com/marceldobehere/goofy-chat-app-v2-client/raw/master/imgs/img.png">
+                This is the 2nd version of my <a href="https://github.com/marceldobehere/goofy-chat-app">goofy chat app</a>!<br/>
+                It has features that goofy chat is missing, like group chats, cross device sync and better media support.<br/>
+                Sync is not ideal currently, and maybe I will make a v3 where messages can be stored encrypted on the server.
+            </ProjectEntry>
+
             <ProjectEntry title="MaslOS2" link="https://github.com/marceldobehere/MaslOS-2" pictureAlt="A screenshot of MaslOS2"
                           picture="https://github.com/marceldobehere/MaslOS-2/raw/main/images/demo.png">
                 My custom OS! The second version of <a href="https://github.com/marceldobehere/MaslOS">MaslOS</a>.<br/>
                 From the outside it might look the same as the original MaslOS, but internally it is very different!<br/>
                 The main differnce is it having ELF execution and a normal scheduler.<br/>
-                I am actively working on this project (and on some others).
             </ProjectEntry>
 
             <ProjectEntry title="RB-Taktik" link="https://github.com/marceldobehere/rb-taktik" pictureAlt="A screenshot of RB-Taktik ingame"
@@ -38,13 +52,6 @@ export default () => {
                 It's 64 bit and mostly written in C++. There are a lot of things already made and it runs on real hardware!<br/>
                 I am not actively working on this project, but I still think it is very cool.<br/>
                 It has a custom GUI system, audio system, apps, an interpreter for a custom language and some cool apps!
-            </ProjectEntry>
-
-            <ProjectEntry title="Goofy Chat App v2" link="https://github.com/marceldobehere/goofy-chat-app-v2" pictureAlt="A screenshot of goofy chat 2"
-                          picture="https://github.com/marceldobehere/goofy-chat-app-v2-client/raw/master/imgs/img.png">
-                This will be the 2nd version of <a href="https://github.com/marceldobehere/goofy-chat-app">goofy chat app</a>!<br/>
-                I want this to have the features that goofy chat is missing, like group chats, cross device sync and maybe a command line interface.<br/>
-                Still very very very WIP!
             </ProjectEntry>
 
             <ProjectEntry title="Goofy Chat App" link="https://github.com/marceldobehere/goofy-chat-app" pictureAlt="A screenshot of goofy chat"
