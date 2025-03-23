@@ -38,12 +38,12 @@ export default () => {
                     I check my mails at least once a day, so expect a response within that time.
                 </p>
 
-                <h2>Goofy Chat</h2>
-                <p>
-                    You can send me a message on <a href={"https://goofy.marceldobehere.com"}>goofy chat</a>!<br/>
-                    My user id is: 2648350751.<br/>
-                    Just note that I'm rarely online there, especially because I am working on v2!
-                </p>
+                {/*<h2>Goofy Chat</h2>*/}
+                {/*<p>*/}
+                {/*    You can send me a message on <a href={"https://goofy.marceldobehere.com"}>goofy chat</a>!<br/>*/}
+                {/*    My user id is: 2648350751.<br/>*/}
+                {/*    Just note that I'm rarely online there, especially because I am working on v2!*/}
+                {/*</p>*/}
             </div>
         </main>
     );
