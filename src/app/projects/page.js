@@ -9,11 +9,11 @@ export default () => {
             <TopBar page="projects" title="Projects" desc="This is a list of projects from marceldobehere."></TopBar>
 
             <ProjectEntry title="Goofy Media" link="https://github.com/marceldobehere/goofy-media-front" pictureAlt="A screenshot of goofy media"
-                          picture="https://github.com/marceldobehere/goofy-media-front/blob/master/imgs/home.png?raw=true">
-                This is a text based Social Media Website I am working on. It is based on the decentralized authentication system from goofy chat v2.<br/>
-                I am planning to add lots of cool features to it, the idea behind making it is me
-                wanting to make something that I could use instead of <a href="https://en.wikipedia.org/wiki/Cohost">cohost</a>.
-                It is still very WIP and I am actively working on it, though a I am currently hosting a node publicly.<br/>
+                          picture="https://raw.githubusercontent.com/marceldobehere/goofy-media-front/master/imgs/home_screen.png?raw=true">
+                This is a text based Social Media Website I am working on. It is based on the decentralized authentication system from Goofy Chat v2.<br/>
+                It has lots of cool features to it, the idea behind making it is me
+                wanting to make something that I could use instead of <a href="https://en.wikipedia.org/wiki/Cohost">cohost</a>!<br/>
+                It is still WIP but in a good state with an &quot;early-access&quot; instance deployed.<br/>
             </ProjectEntry>
 
             <ProjectEntry title="Goofy Chat App v2" link="https://github.com/marceldobehere/goofy-chat-app-v2" pictureAlt="A screenshot of goofy chat 2"

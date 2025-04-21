@@ -38,12 +38,21 @@ export default () => {
                     I check my mails at least once a day, so expect a response within that time.
                 </p>
 
+                <h2>Goofy Media</h2>
+                <p>
+                    I have a profile on Goofy Media <a href={"https://goofy.media/smol/user/holts_plesh_boaty798"}
+                                                       target={"_blank"}>here</a>!<br/>
+                    I share stuff and post updates there and occasionally post random stuff.
+                </p>
+
                 {/*<h2>Goofy Chat</h2>*/}
                 {/*<p>*/}
                 {/*    You can send me a message on <a href={"https://goofy.marceldobehere.com"}>goofy chat</a>!<br/>*/}
                 {/*    My user id is: 2648350751.<br/>*/}
                 {/*    Just note that I'm rarely online there, especially because I am working on v2!*/}
                 {/*</p>*/}
+
+                <br/><br/><br/>
             </div>
         </main>
     );
