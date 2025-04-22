@@ -66,7 +66,7 @@ export default () => {
             <h2>Games</h2>
             <div>
                 I am not currently playing a lot of games.<br/>
-                Currently it's mostly just <a href="https://www.nekoatsume.com/en/">Neko Atsume</a> and <a href="https://tetr.io">Tetrio</a>.<br/>
+                Currently it's mostly just <a href="https://tetr.io">Tetrio</a> sometimes.<br/>
                 <br/>
                 Games I recommend/like:<br/>
                 <ul className="goofy-list">
@@ -81,6 +81,9 @@ export default () => {
                     <li><a href="https://en.wikipedia.org/wiki/Animal_Crossing">Animal Crossing (3DS)</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/LittleBigPlanet_(2008_video_game)">Little Big Planet</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Super_Mario_Maker">Super Mario Maker (1 and 2)</a></li>
+                    <li><a href="https://www.nekoatsume.com/en/">Neko Atsume</a></li>
+                    <li><a href="https://tetr.io/">Tetrio</a></li>
+                    <li><a href="https://www.stardewvalley.net/">Stardew Valley</a></li>
                 </ul>
             </div>
             <br/>
