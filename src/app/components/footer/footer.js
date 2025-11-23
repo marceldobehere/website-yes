@@ -9,7 +9,7 @@ const Footer = ({page, title}) => {
                 <div className="footer-visitor-div">
                     <p>Visitor count:&nbsp;</p>
                     <img
-                        src="https://profile-counter.glitch.me/marceldobehere/count.svg"></img>
+                        src="https://komarev.com/ghpvc/?username=marceldobehere"></img>
                 </div>
             </div>
         </>
